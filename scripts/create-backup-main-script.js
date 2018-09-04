@@ -20,7 +20,7 @@ function run() {
         envName           : envName,
         envAppid          : envAppid,
         maintenanceHost   : maintenanceHost,
-        elasticSearchHost : elasticSearchHost,
+     
         ftpHost           : ftpHost,
         ftpUser           : ftpUser,
         ftpPassword       : ftpPassword,
