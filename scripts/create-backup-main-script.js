@@ -7,7 +7,7 @@ var scriptName        = getParam("scriptName", "${env.envName}-jahia-backup"),
     ftpUser           = getParam("ftpUser", ""),
     ftpPassword       = getParam("ftpPassword", ""),
     maintenanceHost   = getParam("maintenanceHost", "${nodes.proc.master.address}"),
-    elasticSearchHost = getParam("elasticSearchHost", "${nodes.es.master.address}"),
+   
     backupCount       = getParam("backupCount", "5");
 
 function run() {
