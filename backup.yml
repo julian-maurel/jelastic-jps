@@ -7,7 +7,7 @@ description: Backup for Jahia - Digital Experience Manager
 baseUrl: https://raw.githubusercontent.com/jelastic-jps/jahia/master
 
 targetNodes:
-  nodeGroup: cp
+  nodeGroup: proc
 
 onBeforeInit: |
   var resp = jelastic.development.scripting.Eval(appid + "/settings", session, "GetSettings", { settings : "JAHIA_STORAGE_FTP_HOST" });
