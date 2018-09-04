@@ -8,6 +8,7 @@ baseUrl: https://raw.githubusercontent.com/jelastic-jps/jahia/master
 
 targetNodes:
   nodeGroup: proc
+  nodeGroup: cp
 
 onBeforeInit: |
   var resp = jelastic.development.scripting.Eval(appid + "/settings", session, "GetSettings", { settings : "JAHIA_STORAGE_FTP_HOST" });
